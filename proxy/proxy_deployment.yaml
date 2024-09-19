@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
       - name: proxy
-        image: proxy
-        imagePullPolicy: Never
+        image: mohamedmaher77/proxy:latest  
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 443
+
